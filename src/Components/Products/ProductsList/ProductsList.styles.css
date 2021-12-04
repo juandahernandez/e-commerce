@@ -1,0 +1,29 @@
+/* @media (max-width: 320px) {
+  .ul {
+    display: flex;
+    flex-direction: column;
+    background-color: springgreen;
+  }
+} */
+
+@media (min-width: 768px) {
+  .products-item {
+    width: 43%;
+  }
+  .item-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+}
+
+@media (min-width: 1024px) {
+  .products-item {
+    width: 30%;
+  }
+  .item-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+}

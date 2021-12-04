@@ -1,0 +1,29 @@
+.shop-cart {
+  width: 90%;
+  border: solid 2px rgb(48, 200, 175);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.52);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.52);
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.52);
+}
+
+.shop-cart:hover {
+  transform: translateY(10px);
+  transition: 1s;
+}
+
+@media (min-width: 768px) {
+  .shop-cart {
+    width: 43%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .shop-cart {
+    width: 30%;
+  }
+  .item-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+}

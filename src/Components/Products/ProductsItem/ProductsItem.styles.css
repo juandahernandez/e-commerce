@@ -1,0 +1,40 @@
+.no_available {
+  width: 200px;
+  height: 100px;
+}
+.target {
+  border: solid 2px rgb(48, 200, 175);
+  width: 500px;
+  margin-top: 15px;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.52);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.52);
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.52);
+}
+
+.target:hover {
+  transform: translateY(10px);
+  transition: 1s;
+}
+.target img {
+  margin-top: 10px;
+}
+
+.target h4 {
+  margin-top: 10px;
+}
+
+.target p {
+  margin-top: 10px;
+}
+
+.target button {
+  margin-top: 20px;
+}
+
+@media (max-width: 320px) {
+  .target {
+  }
+  /* .target img {
+    width: 50px;
+  } */
+}
